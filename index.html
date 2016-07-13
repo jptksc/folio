@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <!-- Meta: Title and description. -->
+        <title>Folio</title>
+        <meta name="description" content="This is Folio.">
+        
+        <!-- Scaling: For mobile devices. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
+
+        <!-- Fonts: Ubuntu via Google fonts. -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,700">
+        
+        <!-- Styles: Normalization, main, responsive and animation styles. -->
+        <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css?version=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/styles/animations.css?version=1.0">
+        
+        <!-- Favicon: Your favorite icon. -->
+        <link rel="shortcut icon" href="assets/demo/favicon.png" type="image/x-icon" />
+    </head>
+    
+    <body>
+        <!-- Header: Profile image and social links. -->
+        <header class="pulldown animated slow fade-in" id="header">
+            <div class="profile" style="background-image: url(assets/demo/header-profile.jpg);">
+            </div>
+            <a class="social twitter" href="https://twitter.com/jschuller" target="_blank"></a>
+            <a class="social instagram" href="https://www.instagram.com/atmsphrc/" target="_blank"></a>
+            <a class="social medium" href="https://medium.com/@jasonsc" target="_blank"></a>
+            <a class="social dribbble" href="https://dribbble.com/jason" target="_blank"></a>
+        </header>
+
+        <!-- About: A short intro about you. -->
+        <section class="row intro" id="about">
+            <div class="content">
+                <header class="row">
+                    <nav>
+                        <a class="about current scroll" href="#about">About</a>
+                        <a class="work scroll" href="#work">Work</a>
+                        <a class="work scroll" href="#arrivals">Arrivals</a>
+                        <a class="contact scroll" href="#contact">Contact</a>
+                    </nav>
+                </header>
+
+                <div class="row media pullup" style="background-image: url(assets/demo/about-profile.jpg);">
+                </div>
+
+                <footer class="row">
+                    <div class="row copy">
+                        <h1>Jason Schuller — Designer, Maker</h1>
+                        <blockquote>Designing and making whatever comes to mind as I’m inspired by problems and ideas is what I love to do. I’m creating things for the web every day — open source resources anyone can use to jumpstart their own projects. I’m passionate about making the web simple and beautiful — unique concepts, designs &amp; solutions you won’t find anywhere else.</blockquote>
+                    </div>
+
+                    <div class="actions">
+                        <a class="button scroll" href="#contact">Questions? Comments?</a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!-- Work: A portfolio of your work. -->
+        <section class="row" id="work">
+            <span class="title">Work</span>
+
+            <div class="content">
+                <article class="animated fade-up" id="work-jason">
+                    <div class="media" style="background-image: url(assets/demo/work-jason.jpg);">
+                        <a class="open" href="#project" data-project="work-jason"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Jason.sc</h2>
+                        <p>I’m passionate about making the web simple and beautiful — unique concepts, designs &amp; solutions you won’t find anywhere else. You can view more information about this project on <a href="https://jason.sc" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-episodes">
+                    <div class="media" style="background-image: url(assets/demo/work-episodes.jpg);">
+                        <a class="open" href="#project" data-project="work-episodes"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Episodes</h2>
+                        <p>A simple flat-file solution for creating dynamic video-centric websites without the need for anything but your favorite text editor and video service (e.g. YouTube, Vimeo). You can view more information about this project on <a href="https://jason.sc/episodes" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-big-video">
+                    <div class="media" style="background-image: url(assets/demo/work-big-video.jpg);">
+                        <a class="open" href="#project" data-project="work-big-video"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Big Video</h2>
+                        <p>This is Big Video, a minimalist website template for creating perfectly fluid full-screen video splash pages — including “loves”, play count and MailChimp integration. Just update your settings and content, upload to any PHP-compatible server and done. You can view more information about this project on <a href="https://jason.sc/big-video" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-atmospheric">
+                    <div class="media" style="background-image: url(assets/demo/work-atmospheric.jpg);">
+                        <a class="open" href="#project" data-project="work-atmospheric"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Atmospheric</h2>
+                        <p>Ever since I can remember, I’ve had passions for photography, architecture, nature and adventure. Advanced radio controlled drone technology has finally enabled me to take these passions to the next level. You can view more information about this project on <a href="http://atmospheric.co" target="_blank">Atmospheric.co</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-invoice">
+                    <div class="media" style="background-image: url(assets/demo/work-invoice.jpg);">
+                        <a class="open" href="#project" data-project="work-invoice"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Invoice</h2>
+                        <p>Invoice is a complete invoicing solution that allows you to create any number invoices for any number of clients and get paid via Stripe. Configure your preferences, upload to any PHP compatible server (SSL required for Stripe payments), create clients and invoices using simple text files — no database or CMS required. You can view more information about this project on <a href="https://jason.sc/invoice" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-timeline">
+                    <div class="media" style="background-image: url(assets/demo/work-timeline.jpg);">
+                        <a class="open" href="#project" data-project="work-timeline"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Timeline</h2>
+                        <p>With so many outlets available for sharing text and media (photos &amp; video), I wanted to create a simple self-hosted solution that doesn’t require an account, a complex CMS or even a database. You can view more information about this project on <a href="https://jason.sc/timeline" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-letter">
+                    <div class="media" style="background-image: url(assets/demo/work-letter.jpg);">
+                        <a class="open" href="#project" data-project="work-letter"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Letter</h2>
+                        <p>Letter is the perfect solution for launching a simple email newsletter powered by MailChimp. All you’ll need to do is update your text, MailChimp API &amp; list ID, upload to any PHP compatible server and done. You can view more information about this project on <a href="https://jason.sc/letter" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-open">
+                    <div class="media" style="background-image: url(assets/demo/work-open.jpg);">
+                        <a class="open" href="#project" data-project="work-open"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Open</h2>
+                        <p>A simple landing page template for open source or virtually any other project. Use it as is by adding your own text, screenshots, links and features — or as a starting point for something much more detailed. You can view more information about this project on <a href="https://jason.sc/open" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-pickle">
+                    <div class="media" style="background-image: url(assets/demo/work-pickle.jpg);">
+                        <a class="open" href="#project" data-project="work-pickle"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Pickle</h2>
+                        <p>Specifically designed for cafe’s, coffee shops, restaurants and bars... Pickle is the perfect website template for your small business including beautifully crafted panels for all the information important to you, your client or customer. You can view more information about this project on <a href="https://jason.sc/pickle" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-ship">
+                    <div class="media" style="background-image: url(assets/demo/work-ship.jpg);">
+                        <a class="open" href="#project" data-project="work-ship"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Ship</h2>
+                        <p>Originally designed for my <a href="https://pickle.pub" target="_blank">Pickle.pub</a> project “Ship” has been specially crafted for selling a single product or service — a minimalist single-page website template including everything you need to get started. You can view more information about this project on <a href="https://jason.sc/ship" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-gallery">
+                    <div class="media" style="background-image: url(assets/demo/work-gallery.jpg);">
+                        <a class="open" href="#project" data-project="work-gallery"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Gallery</h2>
+                        <p>A beautifully simple template created specifically for launching simple single-page photo galleries. This could be used on its own or as a part of a larger photo-centric project. Gallery is as basic as it gets — built with HTML, CSS and a little JS. You can view more information about this project on <a href="https://jason.sc/gallery" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+
+                <article class="animated fade-up" id="work-launch">
+                    <div class="media" style="background-image: url(assets/demo/work-launch.jpg);">
+                        <a class="open" href="#project" data-project="work-launch"><span>View This Project</span></a>
+                    </div>
+
+                    <div class="row copy">
+                        <h2>Launch</h2>
+                        <p>If you have something new you’re looking to launch, you’re going to want to start building a community of people interested in what you’re launching. The Launch template by is the best way to do that. You can view more information about this project on <a href="https://jason.sc/launch" target="_blank">Jason.sc</a>.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Project: The project panel for all projects (injected via JS). -->
+        <section class="closed" id="project">
+            <a class="close" href="#project"></a>
+
+            <div class="content">
+                <div class="screenshot">
+                </div>
+
+                <div class="copy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Arrivals: What you’re currently working on. -->
+        <section class="row" id="arrivals">
+            <span class="title">Arrivals</span>
+
+            <div class="content">
+                <article class="row">
+                    <h2>The Profile Template</h2>
+                    <span>In Development</span>
+
+                    <div class="status">
+                        <div class="current animated eighty">
+                        </div>
+                    </div>
+                    
+                    <p>A single-page template for your profile.</p>
+                </article>
+
+                <article class="row">
+                    <h2>The App Template</h2>
+                    <span>In Development</span>
+
+                    <div class="status">
+                        <div class="current animated sixty">
+                        </div>
+                    </div>
+                    
+                    <p>A landing page marketing template for your app.</p>
+                </article class="row">
+
+                <article class="row">
+                    <h2>The Event Template</h2>
+                    <span>In Design</span>
+
+                    <div class="status">
+                        <div class="current animated fourty">
+                        </div>
+                    </div>
+
+                    <p>A simple landing page template for events.</p>
+                </article>
+
+                <article class="row">
+                    <h2>The Book Template</h2>
+                    <span>Concept</span>
+
+                    <div class="status">
+                        <div class="current animated twenty">
+                        </div>
+                    </div>
+
+                    <p>A simple landing page template for publishing and selling books.</p>
+                </article>
+
+                <article class="row">
+                    <h2>The Resume Template</h2>
+                    <span>Concept</span>
+
+                    <div class="status">
+                        <div class="current animated ten">
+                        </div>
+                    </div>
+
+                    <p>A minimalist single-page resume template.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact: The contact form. -->
+        <section class="row intro" id="contact">
+            <span class="title">Contact</span>
+
+            <div class="content">
+                <div class="row form">
+                    <form class="row" id="contact-form" action="assets/works/post-mail.php" method="post">
+                        <div class="row message"></div>
+
+                        <div class="row">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                        </div>
+                        
+                        <div class="row">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </div>
+                        
+                        <div class="row">
+                            <textarea name="message" id="message" placeholder="Message ..."></textarea>
+                        </div>
+                    </form>
+                </div>
+
+                <footer class="row">
+                    <div class="copy">
+                        <h2>Questions, Comments, Ideas?</h2>
+                        <blockquote>I’m here for any questions, comments, ideas you might have... or even just say hello. In any case, all I ask is that we keep things courteous. I’ll always try my best to get back to you within 24 hours.</blockquote>
+                    </div>
+
+                    <div class="actions">
+                        <a class="button green" id="submit" href="#">All Done? Send This</a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!-- Scripts: jQuery and primary scripts. -->
+        <script type="text/javascript" src="assets/scripts/jquery.js"></script>
+        <script type="text/javascript" src="assets/scripts/main.js"></script>
+    </body>
+</html>

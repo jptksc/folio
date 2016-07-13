@@ -1,0 +1,222 @@
+
+/***********************************************************************************
+Forms
+************************************************************************************/
+
+@media (max-width: 480px) {
+	input[type='text'],
+	input[type='email'],
+	textarea {
+	    width: calc(100% + 40px);
+	}
+}
+
+/***********************************************************************************
+Content
+************************************************************************************/
+
+@media (max-width: 1200px) {
+	.row .content {
+	    width: 70%;
+	}
+}
+
+@media (max-width: 800px) {
+	.row .content {
+	    width: calc(100% - 80px);
+	}
+}
+
+/***********************************************************************************
+The Header
+************************************************************************************/
+
+@media (max-width: 1200px) {
+	#header {
+	    top: 20px;
+	    right: 20px;
+	}
+}
+
+@media (max-width: 800px) {
+	#header {
+	    width: 40px;
+	}
+
+	#header .profile {
+		display: none;
+	}
+}
+
+/***********************************************************************************
+Section Intros
+************************************************************************************/
+
+@media (max-width: 800px) {
+	.intro .content .media {
+		margin-left: -40px;
+	}
+
+	.intro .content footer {
+	    margin-left: -40px;
+	}
+}
+
+@media (max-width: 580px) {
+	.intro {
+		padding-bottom: 140px;
+	}
+
+	.intro .content footer {
+	    margin-left: 0;
+	}
+
+	.intro .content footer .copy {
+	    width: 100%;
+
+	    padding-right: 40px;
+	    margin: 0 0 34px;
+	}
+
+	.intro .content footer .actions {
+	    text-align: left;
+
+	    width: 100%;
+	    height: 30px;
+
+	    position: relative;
+	    top: 0;
+	    left: 0;
+
+	    margin-top: 0;
+	}
+}
+
+
+/***********************************************************************************
+About
+************************************************************************************/
+
+@media (max-width: 400px) {
+	#about .content header a:nth-child(1) {
+	    display: none;
+	}
+}
+
+@media (max-width: 340px) {
+	#about {
+	    padding-top: 100px;
+	}
+
+	#about .content header {
+	    display: none;
+	}
+}
+
+/***********************************************************************************
+Work
+************************************************************************************/
+ 
+@media (max-width: 1200px) {
+	#work .content article {
+	    width: 33.3333%;
+	}
+}
+
+@media (max-width: 800px) {
+	#work .content article {
+	    width: 50%;
+	}
+}
+
+@media (max-width: 480px) {
+	#work .content {
+		width: 100%;
+	}
+
+	#work .content article {
+		width: calc(100% - 40px);
+
+	    padding: 0 0 0 0;
+	}
+
+	#work .content article .media {
+		padding-bottom: 50%;
+	}
+
+	#work .content article .copy {
+		padding-left: 40px;
+	}
+}
+
+/***********************************************************************************
+Projects
+************************************************************************************/
+
+@media (max-width: 1200px) {
+	#project {
+	    width: calc(100% - 100px);
+	}
+}
+
+@media (max-width: 980px) {
+	#project {
+	    width: calc(100% - 50px);
+	    height: calc(100% - 200px);
+
+	    top: 100px;
+	}
+
+	#project .content .copy {
+		width: 70%;
+
+		left: 30%;
+	}
+
+	#project .content .screenshot .media {
+	    left: -20%;
+	}
+}
+
+@media (max-width: 640px) {
+	#project .content .copy {
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 320px) {
+	#project {
+	    height: calc(100% - 100px);
+
+	    top: 50px;
+	}
+
+	#project .content .copy {
+		width: 80%;
+
+		left: 20%;
+	}
+
+	#project .content .screenshot .media {
+	    left: -30%;
+	}
+}
+
+/***********************************************************************************
+Arrivals
+************************************************************************************/
+
+@media (max-width: 480px) {
+	#arrivals .content article {
+	    width: calc(100% + 40px);
+	}
+
+	#arrivals .content article h2,
+	#arrivals .content article p {
+		padding-right: 40px;
+	}
+
+	#arrivals .content article span {
+	    display: none;
+	}
+}
